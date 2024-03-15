@@ -121,7 +121,7 @@
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #eb1c5a;
+    background-color:#eb1c5a;
     padding: 10px 0;
     display: flex;
     justify-content: space-between;
@@ -186,4 +186,20 @@
       background-color: #f2f2f2;
     }
 
-   
+    .content {
+      position: fixed;
+      top: 100px;
+      right: 0;
+      width: 50%;
+      padding: 20px;
+      overflow-y: auto;
+      height: 100vh; /* Make it take full height of the viewport */
+      box-sizing: border-box;
+  }
+  .imgs {
+    height: 500px;
+  }
+
+  .sens {
+    height: 400px;
+      }

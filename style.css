@@ -147,15 +147,19 @@
   
  
 
-/* 
-    .container {
+
+    .tabs {
       max-width: 100%;
-      overflow-x: auto;
-      margin-top: 550px;
+      overflow-y: auto;
+      margin-top: 10px;
       text-align: center;
-    }
+    } 
+   
     table {
-      width: 100%;
+      margin-top: 10px;
+      text-align: center;
+      margin-left:175px;
+      width: 80%;
       border-collapse: collapse;
     }
     th, td {
@@ -165,4 +169,3 @@
     th {
       background-color: #f2f2f2;
     }
- */

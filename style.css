@@ -1,0 +1,147 @@
+.container {
+    perspective: 800px;
+    perspective-origin: 50% 50%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .beam {
+    position: relative;
+    width: 50px; /* Width of the beam */
+    height: 200px; /* Height of the beam */
+    transform-style: preserve-3d;
+    transition: transform 0.3s ease-in-out;
+    background-color: 	#ffffff; /* Beam color */
+  }
+  
+  .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+  }
+  
+  .front {
+    background-color: 	#7E8274; /* Same color as the beam */
+  }
+  
+  .back {
+    display: none; /* Hide the back face */
+  }
+  
+  .left {
+    background-color: 	#7E8274; /* Same color as the beam */
+    transform: rotateY(-90deg) translateX(50%);
+  }
+  
+  .right {
+    background-color: 	#7E8274; /* Same color as the beam */
+    transform: rotateY(90deg) translateX(-50%);
+  }
+  
+  .top {
+    background-color: 	#7E8274; /* Same color as the beam */
+    transform: translateY(-50%) rotateX(90deg);
+  }
+  
+  .bottom {
+    background-color: 	#7E8274; /* Same color as the beam */
+    transform: translateY(50%) rotateX(-90deg);
+  }
+  /* for a straight crack line */
+  /*  .crack {
+    position: absolute;
+    width: 4px;
+    height: 100px;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: red;
+  } */
+  
+  /*for a slant crack line */
+  .crack {
+  position: absolute;
+  width: 4px;
+  height: 70px;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg); /* Adjust the rotation angle as needed */
+  background-color: red;
+  }
+  
+  .navbar {
+    background-color: #eb0404; /* Choose your desired background color */
+    padding: 10px 0; /* Add padding for better visual appearance */
+  }
+  
+  .navtxt {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navtxt li {
+    display: inline;
+    margin-right: 30px; /* Adjust spacing between navigation items */
+  }
+  
+  .navtxt li:last-child {
+    margin-right: 0; /* Remove margin from last navigation item */
+  }
+  
+  .navtxt li a {
+    color: rgb(15, 15, 15); /* Change the color of navigation links */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .navtxt li a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+  
+  
+  
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #eb1c5a;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-text {
+    margin-left: 30px;
+    flex-grow: 1; /* This will make the text take up the remaining space */
+  }
+  
+  .social-links {
+    display: flex;
+    margin-right: 30px;
+  
+  }
+  
+  .social-links a {
+    margin-left: 20px;
+    font-size: 40px;
+    color: black;
+  }
+  
+  .social-links a:first-child {
+    margin-left: 0;
+  }
+  
+  .btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: rgb(189, 6, 15);
+    border-radius: 5px;
+    height: 40px;
+  }
+  

@@ -144,7 +144,10 @@
     border-radius: 5px;
     height: 40px;
   }
-  
+  .ressen{
+    margin-top: 450px;
+    text-align: center;
+  }
  
 
 
@@ -156,6 +159,7 @@
     } 
    
     table {
+      border: 1px;
       margin-top: 10px;
       text-align: center;
       margin-left:175px;

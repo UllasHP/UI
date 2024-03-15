@@ -85,7 +85,7 @@
   
   .navtxt li {
     display: inline;
-    margin-right: 30px; /* Adjust spacing between navigation items */
+    margin-right: 50px; /* Adjust spacing between navigation items */
   }
   
   .navtxt li:last-child {
@@ -99,6 +99,19 @@
   
   .navtxt li a:hover {
     text-decoration: underline; /* Add underline on hover */
+  }
+  
+  .navi {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: #eb1c5a;
+    display: flex;
+    padding: 8px;
+    justify-content: space-between;
+    align-items: center; /* Vertically center the content */
   }
   
   
@@ -149,8 +162,6 @@
     text-align: center;
   }
  
-
-
     .tabs {
       max-width: 100%;
       max-height: 300px;
@@ -174,3 +185,5 @@
     th {
       background-color: #f2f2f2;
     }
+
+   

@@ -107,7 +107,7 @@
     left: 0;
     right: 0;
     width: 100%;
-    background-color: #FBF6D9; 
+    background-color: #FFE5B4; 
     display: flex;
     padding: 8px;
     justify-content: space-between;
@@ -121,7 +121,7 @@
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color:#FBF6D9;
+    background-color:#FFE5B4;
     padding: 10px 0;
     display: flex;
     justify-content: space-between;

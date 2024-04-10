@@ -51,18 +51,18 @@
     transform: translateY(50%) rotateX(-90deg);
   }
   /* for a straight crack line */
-  /*  .crack {
+   .crack {
     position: absolute;
     width: 4px;
-    height: 100px;
-    top: 10px;
+    height: 80px;
+    top: 100px;
     left: 50%;
     transform: translateX(-50%);
     background-color: red;
-  } */
+  }
   
   /*for a slant crack line */
-  .crack {
+  /* .crack {
   position: absolute;
   width: 4px;
   height: 70px;
@@ -71,7 +71,7 @@
   transform: translateX(-50%) rotate(45deg); /* Adjust the rotation angle as needed */
   background-color: red;
   }
-  
+   */
   .navbar {
     background-color: #eb0404; /* Choose your desired background color */
     padding: 10px 0; /* Add padding for better visual appearance */

@@ -54,7 +54,7 @@
    .crack {
     position: absolute;
     width: 4px;
-    height: 80px;
+    height: 65px;
     top: 100px;
     left: 50%;
     transform: translateX(-50%);
